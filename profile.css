@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(0, 0, 0);
+}
+.heading{
+    height: 100vh;
+}
+.container{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-top:100em;
+    margin-bottom:500px;
+    margin:10px;
+    color: rgb(255, 170, 0);
+    display:grid;
+}
+.container h1{
+    font-family:monospace;
+    font-size: 100px;
+    margin-top:250px;
+    margin-bottom:300px;
+    text-align: center;
+}
+.container h2{
+    font-family:monospace;
+    font-size: 50px;
+    margin-top: 30PX;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-image{
+    border-radius:100% ;
+    width: 200px;
+    height:200px;
+    position: absolute;
+    top: -50px;
+    transform:translateX(-50%) ;
+    background:  rgb(0, 0, 0);
+    padding: 15px;
+}
+.card-image :hover{
+    /* background-color: red; */
+    box-shadow: 0 0 10px 10px rgb(222, 41, 41);
+}
+.hod{
+    display: grid;
+    gap:10px;
+    grid-template-columns:repeat(auto-fit, minmax(1000,1fr));
+}
+.team .job-title{
+    font-size: 20px;
+    color:rgb(255, 255, 255)
+}
+.team .hod h2{
+    font-family:monospace;
+    font-size: 25px;
+    margin-top: 50PX;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team .hod{
+    font-size:13.5px;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding:10px;
+    width: 350px;
+    color:#ffffff;
+    border:5px brown;
+    position:relative;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow:0 0 5em rgb(0, 0, 0);
+}
+.FACULTYS{
+    display: grid;
+    gap:100px;
+    grid-template-columns:repeat(auto-fit, minmax(300,1fr));
+}
+.FACULTYS h2{
+    font-family:monospace;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.FACULTYS .FACULTY{
+    /* display:flex;
+    flex-direction:column; */
+    font-size:13.5px;
+    background-color: rgb(0, 0, 0);
+    border-radius:50px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding:10px;
+    width: 75%;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    box-shadow:0 0 5em rgb(0, 0, 0)
+}
+.job-title{
+    display:grid;
+    gap:10px;
+    margin-bottom: 25px;
+    grid-template-columns:repeat(auto-fit, minmax(300,1fr));
+}
+.title{
+    display:grid;
+    gap:10px;
+    margin-bottom: 100px;
+    grid-template-columns:repeat(auto-fit, minmax(300,1fr));
+}
+.name{
+    display:grid;
+    gap:10px;
+    margin-top: 100px;
+    grid-template-columns:repeat(auto-fit, minmax(300,1fr));
+}
+.social-media{
+    margin-bottom: 10px;;
+}
+.leads{
+    display: grid;
+    gap:1px;
+    grid-template-columns:repeat(auto-fit, minmax(500,1fr));
+}
+.leads h2{
+    font-family:monospace;
+    font-size: 25px;
+    margin-top: 50PX;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.leads .team-memeber{
+    font-size:13.5px;
+    background-color: rgb(0, 0, 0);
+    border-radius:50px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding:10px;
+    width: 75%;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    box-shadow:0 0 5em rgb(0, 0, 0)
+}
+.students{
+    display: grid;
+  gap: 1px;
+  grid-template-columns:repeat(auto-fit, minmax(300,1fr));
+}
+.students h2{
+    font-family:monospace;
+    font-size: 25px;
+    margin-top: 50PX;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.student{
+    font-size:13.5px;
+    background-color: rgb(0, 0, 0);
+    border-radius:50px;
+    margin:auto;
+    margin-bottom: 50px;
+    padding:10px;
+    width: 75%;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    box-shadow:0 0 5em rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color:rgb(248, 248, 248);
+}
+a:hover{
+    color:red;
+}
+.social-media .fa-instagram{
+    font-size:20px;
+    padding:10px;
+}
+.social-media .fa-twitter{
+    font-size:20px;
+    padding:10px;
+}
+.social-media .fa-facebook{
+    font-size:20px;
+    padding:10px;
+}
+.social-media .fa-linkedin{
+    font-size:20px;
+    padding:10px;
+
+}
+.student:hover {
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 0 5px 1px rgb(161, 56, 56);
+}
+.FACULTY:hover {
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+}
+.hod:hover {
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+}
+.team-memeber:hover {
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+}
+@media (min-width:1000px){
+    .FACULTYS{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .leads{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .students{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+/* minimising box width for card on mobile view */
+@media (max-width:700px){
+    .container{
+        padding:0 10vw;
+    }
+}
