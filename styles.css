@@ -146,9 +146,9 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: color #000000;
+    background: color #fff;
     font-size: 2.5rem !important;
-    color: purple;
+    color: rgb(255, 140, 0);
 }
 .clubName h1 span:hover{
     color: rgba(255, 72, 30, 0.847);
@@ -188,7 +188,7 @@ span::selection{
         text-align: center;
         font-size: 3vmax;
         line-height: 10vmax;
-        color: #173c94;
+        color: rgb(255, 145, 0);
     }
     .aboutUs{
         width:100%;
@@ -237,12 +237,12 @@ span::selection{
 }
 .cardscontainer{
     width:100%;
-    height:75vh;
+    height:auto;
     padding-top:2em;
     display: grid;
     justify-content: center;
-    grid-gap:1.5em;
-    grid-template-columns: repeat(auto-fit,minmax(350px,40%));
+    grid-gap:2em;
+    grid-template-columns: repeat(auto-fit,minmax(400px,40%));
     margin:5% 0;
 }
 .card{
@@ -255,10 +255,12 @@ span::selection{
 }
 .card h1{
     font-size: 200%;
+    margin: 5% 0;
     color: #fff;
 }
 .card p{
     font: 10%;
+    margin:5% 2%;
     color: rgb(206, 206, 206);
 }
 .card:hover{
@@ -281,7 +283,7 @@ span::selection{
     width:100%;
     height:auto;
     padding:2vh;
-    margin-top:10vh !important;
+    /* margin-top:; */
     font-size: 3vw;
     color: aliceblue;
     display: flex;
