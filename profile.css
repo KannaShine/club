@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 .container{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+/*     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; */
     margin-top:100em;
     margin-bottom:500px;
     margin:10px;
@@ -18,7 +18,7 @@ body{
     display:grid;
 }
 .container h1{
-    font-family:monospace;
+/*     font-family:monospace; */
     font-size: 100px;
     margin-top:250px;
     margin-bottom:300px;
